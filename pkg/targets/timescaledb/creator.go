@@ -173,7 +173,7 @@ func (d *dbCreator) createTableAndIndexes(dbBench *sql.DB, tableName string, fie
 		MustExec(dbBench, "CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE")
 		if d.opts.NumberPartitions > 0 {
 			MustExec(dbBench,
-				fmt.Sprintf("SELECT create_hypertable('%s'::regclass, 'time'::name, partitioning_column => '%s'::name, number_partitions => %v::smallint, chunk_time_interval => %d, create_default_indexes=>FALSE)",
+				fmt.Sprintf("SELECT create_distributed_hypertable('%s'::regclass, 'time'::name, partitioning_column => '%s'::name, number_partitions => %v::smallint, chunk_time_interval => %d, create_default_indexes=>FALSE)",
 					tableName, "tags_id", d.opts.NumberPartitions, d.opts.ChunkTime.Nanoseconds()/1000))
 		} else {
 			MustExec(dbBench,
