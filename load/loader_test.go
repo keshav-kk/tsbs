@@ -3,7 +3,7 @@ package load
 import (
 	"bytes"
 	"fmt"
-	"github.com/timescale/tsbs/pkg/targets"
+	"github.com/keshav-kk/tsbs/pkg/targets"
 	"strings"
 	"sync"
 	"sync/atomic"

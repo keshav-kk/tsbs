@@ -3,7 +3,7 @@ package clickhouse
 import (
 	"fmt"
 	"github.com/jmoiron/sqlx"
-	"github.com/timescale/tsbs/pkg/targets"
+	"github.com/keshav-kk/tsbs/pkg/targets"
 	"strconv"
 	"strings"
 	"sync"

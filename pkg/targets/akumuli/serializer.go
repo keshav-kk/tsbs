@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/timescale/tsbs/pkg/data"
-	"github.com/timescale/tsbs/pkg/data/serialize"
+	"github.com/keshav-kk/tsbs/pkg/data"
+	"github.com/keshav-kk/tsbs/pkg/data/serialize"
 	"io"
 )
 

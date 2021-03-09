@@ -105,21 +105,21 @@ scripts). The easiest way to get and install the Go programs is to use
 `go get` and then `go install`:
 ```bash
 # Fetch TSBS and its dependencies
-$ go get github.com/timescale/tsbs
-$ cd $GOPATH/src/github.com/timescale/tsbs/cmd
+$ go get github.com/keshav-kk/tsbs
+$ cd $GOPATH/src/github.com/keshav-kk/tsbs/cmd
 $ go get ./...
 
 # Install desired binaries. At a minimum this includes tsbs_generate_data,
 # tsbs_generate_queries, one tsbs_load_* binary, and one tsbs_run_queries_*
 # binary:
-$ cd $GOPATH/src/github.com/timescale/tsbs/cmd
+$ cd $GOPATH/src/github.com/keshav-kk/tsbs/cmd
 $ cd tsbs_generate_data && go install
 $ cd ../tsbs_generate_queries && go install
 $ cd ../tsbs_load_timescaledb && go install
 $ cd ../tsbs_run_queries_timescaledb && go install
 
 # Optionally, install all binaries:
-$ cd $GOPATH/src/github.com/timescale/tsbs/cmd
+$ cd $GOPATH/src/github.com/keshav-kk/tsbs/cmd
 $ go install ./...
 ```
 
@@ -444,7 +444,7 @@ the results.
 We welcome contributions from the community to make TSBS better!
 
 You can help either by opening an
-[issue](https://github.com/timescale/tsbs/issues) with
+[issue](https://github.com/keshav-kk/tsbs/issues) with
 any suggestions or bug reports, or by forking this repository,
 making your own contribution, and submitting a pull request.
 

@@ -9,11 +9,11 @@ import (
 
 	"github.com/blagojts/viper"
 	"github.com/spf13/pflag"
-	"github.com/timescale/tsbs/internal/utils"
-	"github.com/timescale/tsbs/load"
-	"github.com/timescale/tsbs/pkg/targets"
-	"github.com/timescale/tsbs/pkg/targets/constants"
-	"github.com/timescale/tsbs/pkg/targets/initializers"
+	"github.com/keshav-kk/tsbs/internal/utils"
+	"github.com/keshav-kk/tsbs/load"
+	"github.com/keshav-kk/tsbs/pkg/targets"
+	"github.com/keshav-kk/tsbs/pkg/targets/constants"
+	"github.com/keshav-kk/tsbs/pkg/targets/initializers"
 )
 
 const (

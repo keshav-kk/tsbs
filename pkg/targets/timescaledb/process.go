@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"github.com/timescale/tsbs/pkg/targets"
+	"github.com/keshav-kk/tsbs/pkg/targets"
 	"os"
 	"strconv"
 	"strings"

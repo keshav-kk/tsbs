@@ -8,11 +8,11 @@ import (
 	"log"
 
 	flatbuffers "github.com/google/flatbuffers/go"
-	"github.com/timescale/tsbs/load"
-	"github.com/timescale/tsbs/pkg/data"
-	"github.com/timescale/tsbs/pkg/data/usecases/common"
-	"github.com/timescale/tsbs/pkg/targets"
-	"github.com/timescale/tsbs/pkg/targets/mongo"
+	"github.com/keshav-kk/tsbs/load"
+	"github.com/keshav-kk/tsbs/pkg/data"
+	"github.com/keshav-kk/tsbs/pkg/data/usecases/common"
+	"github.com/keshav-kk/tsbs/pkg/targets"
+	"github.com/keshav-kk/tsbs/pkg/targets/mongo"
 )
 
 type fileDataSource struct {

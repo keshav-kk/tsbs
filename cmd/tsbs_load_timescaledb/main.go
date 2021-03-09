@@ -9,10 +9,10 @@ import (
 
 	"github.com/blagojts/viper"
 	"github.com/spf13/pflag"
-	"github.com/timescale/tsbs/internal/utils"
-	"github.com/timescale/tsbs/load"
-	"github.com/timescale/tsbs/pkg/data/source"
-	"github.com/timescale/tsbs/pkg/targets/timescaledb"
+	"github.com/keshav-kk/tsbs/internal/utils"
+	"github.com/keshav-kk/tsbs/load"
+	"github.com/keshav-kk/tsbs/pkg/data/source"
+	"github.com/keshav-kk/tsbs/pkg/targets/timescaledb"
 )
 
 // Parse args:

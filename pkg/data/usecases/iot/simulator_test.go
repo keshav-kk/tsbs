@@ -3,8 +3,8 @@ package iot
 import (
 	"bytes"
 	"fmt"
-	"github.com/timescale/tsbs/pkg/data"
-	"github.com/timescale/tsbs/pkg/data/usecases/common"
+	"github.com/keshav-kk/tsbs/pkg/data"
+	"github.com/keshav-kk/tsbs/pkg/data/usecases/common"
 	"reflect"
 	"testing"
 	"time"

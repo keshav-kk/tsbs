@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/timescale/tsbs/pkg/data"
-	"github.com/timescale/tsbs/pkg/data/usecases/common"
-	"github.com/timescale/tsbs/pkg/targets"
+	"github.com/keshav-kk/tsbs/pkg/data"
+	"github.com/keshav-kk/tsbs/pkg/data/usecases/common"
+	"github.com/keshav-kk/tsbs/pkg/targets"
 )
 
 type row = []interface{}
